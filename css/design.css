@@ -1,0 +1,89 @@
+.navbar-default{
+background-color: #BBC4C2;
+    
+}
+
+.navbar-header li, a {
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    margin-top: 5px;
+        
+}
+.menu-bar{
+    background-color: #000080;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.welcome-picture{
+    text-align: center;
+    background-color: white;
+    border: 5px solid #454545;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: #2E2E2E;
+ 
+}
+.welcome-container{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.Dark-theme{
+    background-color: #737373;
+}
+
+#mySlides-fade{
+     width: 470px;
+    height: 300px;
+    
+}
+
+.numbertext, .text, .title-service{
+    color: aqua;
+}
+
+.logo-img{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: left;
+    margin: auto;
+}
+
+.title-service{
+    font-size: 30px;
+}
+.footer-nav{
+    text-align: end;
+    background-color: #BBC4C2;
+    padding-bottom: 6px;
+}
+
+.fade-in-img{
+        font-size: 36px;
+        color: #333;
+        opacity: 0;
+        text-align: center;
+        animation: fadeIn 2s linear forwards;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+}
+      }
+
+      

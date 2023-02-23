@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shalom Software</title>
+        <meta name="author" class="Webpage">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/design.css"> 
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    
+    
+    <body class="Dark-theme">
+        
+        <nav class ="navbar navbar-default" role= "navigation">
+            <div class = "container">
+                <div class ="navbar-header">
+                    <button type ="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+                        <span class="icon-bar" ></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>  
+                    </button>
+                </div>
+        
+                <div class="collapse navbar-collapse" id="nav-collapse">
+                     <div class="navbar-header" >
+                            <li> <a href="shalom.html">
+                            <img class="logo-img" src="img/shalomSoftware.png" height="70" width="130" >
+                                </a>
+                            </li>    
+                        </div>
+                            <ul class="nav navbar-nav">
+                                <br>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="services.html">Service</a></li>
+                            </ul>
+                 </div>
+             </div>
+           </nav>
+
+        
+    <div class="welcome-picture">   
+        <div class="mySlides-fade">
+            <div class="welcome-container">
+            <div class="title-service">Services</div>    
+            <div class="numbertext">1 / 3</div>    
+            <img id="hardware-img" src="img/hardware.jpg" alt="welcome Picture" >
+            <div class="text">Fix and Boot Your Computers</div>    
+            </div>    
+        </div>    
+            <div class="mySlides-fade">
+                <div class="title-service">Services</div>    
+                <div class="numbertext">2 / 3</div>
+                <img src="img/adobe.png" style="width:100%">
+                <div class="text">Download Adobe Collections</div>
+            </div>
+
+            <div class="mySlides-fade">
+                <div class="title-service">Services</div>    
+                <div class="numbertext">3 / 3</div>
+                <img src="img/msOffice.png" style="width:100%">
+                <div class="text">Download MS Office 2021</div>
+            </div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+            
+        </div> 
+        
+        
+    
+    <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides-fade");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+        
+        
+        <div class="Info-text1">
+            
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <footer class="footer-nav">
+             <div class="container-fluid">
+                <div class="navbar-header">
+                    <li> <a href="shalom.html">
+                    <img class="logo-img" src="img/shalomSoftware.png" height="70" width="130" >
+                        </a>
+                    </li>    
+                </div>
+                    <ul class="nav navbar-nav">
+                        <br>
+                        <br>
+                      
+                        <p>All Rigth Reserve 2023</p>
+                </div>
+        </footer>
+         
+    </body>
+</html>
